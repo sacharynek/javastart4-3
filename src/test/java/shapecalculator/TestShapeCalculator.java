@@ -8,7 +8,7 @@ import shapes.Rectangle;
 import shapes.Square;
 import shapes.Triangle;
 
-public class ShapeCalculatorTest {
+public class TestShapeCalculator {
 
     private ShapeCalculator sc;
 

@@ -13,6 +13,10 @@ public class Circle {
         this.r = r;
     }
 
+    public double circleArea() {
+        return Math.PI * Math.pow(this.getR(), 2);
+    }
+
     public double getR() {
         return r;
     }

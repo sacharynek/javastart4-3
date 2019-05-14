@@ -10,6 +10,10 @@ public class Square extends Rectangle {
         this.y = x;
     }
 
+    public double squareArea() {
+        return this.getX() * this.getY();
+    }
+
     @Override
     public String toString() {
         return "Square{" +

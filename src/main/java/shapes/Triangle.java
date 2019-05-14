@@ -18,6 +18,11 @@ public class Triangle {
         this.c = c;
     }
 
+    public double trianglePerimeter() {
+        return this.getA() + this.getB() + this.getC();
+    }
+
+
     public double getA() {
         return a;
     }

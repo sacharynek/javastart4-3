@@ -17,6 +17,10 @@ public class Rectangle {
         this.y = y;
     }
 
+    public double rectPerimeter() {
+        return 2 * this.getX() + 2* this.getY();
+    }
+
     public double getX() {
         return x;
     }
